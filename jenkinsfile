@@ -5,7 +5,6 @@ pipeline {
             steps{
                 git branch: 'main', credentialsId: 'nc-cred', url: 'https://github.com/Chisacov/spring-petclinic'    
             }
-            
         }
         stage('Build') { 
             steps {
